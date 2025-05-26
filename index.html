@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <title>Chzzk Sound Item</title>
+</head>
+<body>
+  <p style="color: aliceblue">
+    방송에 재생할 파일들을 모두 선택해주세요.
+    <br>
+    파일을 모두 선택하면 자동으로 이 화면이 사라집니다.
+  </p>
+  <input id="file" type="file" id="audioInput" accept="audio/mp3" multiple/>
+  <audio id="player" controls></audio>
+  <script src="./js/library.js"></script>
+  <script src="./js/soundQueue.js"></script>
+  <script src="./js/websocket.js"></script>
+</body>
+</html>
